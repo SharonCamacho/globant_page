@@ -1,6 +1,8 @@
 *{
   color:gray;
 }
+
+
 .container {
   box-sizing: border-box;
   right: 0;
@@ -9,9 +11,11 @@
 
 nav {
   position: fixed;
+  display: block;
   width:100%;
   right: 50px;
   left: 0;
+  z-index: 1;
 }
 
 nav ul {
@@ -62,13 +66,12 @@ nav li {
 }
 
 article {
-  display: block;
+  float: left;
   text-align: center;
-  margin-top: 420px;
+  margin-top: 480px;
   width: 50%;
-  position: absolute;
+  margin-left: 150px;
   background-color: #eeeeee;
-  left: 100px;
 }
 
 article h4 {
@@ -83,4 +86,45 @@ article img {
 article p {
   text-align : justify;
   padding: 10px 150px 10px 140px;
+}
+
+aside {
+  float: right;
+  text-align: center;
+  margin-top: 480px;
+  margin-right: 60px;
+  width: 20%;
+  right: 50px;
+}
+
+aside img {
+  width: 130px;
+  height: 190px;
+}
+
+aside p {
+  font-size: 12px;
+  width: 80%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+aside span {
+  display: block;
+}
+
+footer{
+  position: absolute;
+  display: block;
+  margin-top: 1200px;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  padding: 50px;
+  background-color: #4D535E;
+  font-size: 30px;
+}
+
+footer h5 {
+  color: white;
 }
