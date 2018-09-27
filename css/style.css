@@ -1,4 +1,7 @@
-.container{
+*{
+  color:gray;
+}
+.container {
   box-sizing: border-box;
   right: 0;
   left: 0;
@@ -11,7 +14,7 @@ nav {
   left: 0;
 }
 
-nav ul{
+nav ul {
   position:absolute;
   right: 50px;
 }
@@ -21,7 +24,7 @@ nav li {
   color: gray;
 }
 
-.photos{
+.photos {
   display: block;
   text-align: center;
   margin-top: 100px;
@@ -32,16 +35,52 @@ nav li {
 }
 
 .box {
-  padding: 10px 10px;
+  padding: 20px 10px 40px 10px;
   display: inline-block;
 }
 
 .peque {
+  position:absolute;
+  z-index:1;
   background-color: white;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 150px;
 }
 
-img{
+.underline {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 3px;
+}
+
+
+.box img {
   display: inline-block;
   width: 360px;
   height: 230px;
+}
+
+article {
+  display: block;
+  text-align: center;
+  margin-top: 420px;
+  width: 50%;
+  position: absolute;
+  background-color: #eeeeee;
+  left: 100px;
+}
+
+article h4 {
+  text-transform: uppercase;
+}
+
+article img {
+  width: 400px;
+  height: 350px;
+}
+
+article p {
+  text-align : justify;
+  padding: 10px 150px 10px 140px;
 }
