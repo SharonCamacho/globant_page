@@ -1,13 +1,47 @@
 .container{
   box-sizing: border-box;
+  right: 0;
+  left: 0;
 }
 
 nav {
-  position: absolute;
+  position: fixed;
+  width:100%;
   right: 50px;
+  left: 0;
 }
 
+nav ul{
+  position:absolute;
+  right: 50px;
+}
 nav li {
   display: inline-block;
   padding: 15px;
+  color: gray;
+}
+
+.photos{
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: #eeeeee;
+  left: 0;
+}
+
+.box {
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+.peque {
+  background-color: white;
+}
+
+img{
+  display: inline-block;
+  width: 360px;
+  height: 230px;
 }
